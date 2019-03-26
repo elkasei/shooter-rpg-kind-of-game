@@ -18,11 +18,6 @@ public class healthCount : MonoBehaviour
 		set
 		{
 			health = value;
-
-			if(ShowHealth)
-			{
-				LevelManager.Instance.UIController.SetHealth (health);
-			}
 		}
 	}
 
